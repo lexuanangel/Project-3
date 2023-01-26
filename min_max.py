@@ -8,7 +8,7 @@ print("How many integers would you like to enter?")
 
 # make sure that input is greater than 1
 total_integer = int(input())
-print(total_integer >= 1)
+# print(total_integer >= 1)
 if total_integer < 1:
     exit()
 print("Please enter " + str(total_integer) + " integers.")
