@@ -13,9 +13,9 @@ number_guess = 0
 while player_guess != correct_guess:
     player_guess = int(input())
     if player_guess < correct_guess:
-        print("Too low - try again: ")
+        print("Too low - try again:")
     if player_guess > correct_guess:
-        print("Too high - try again: ")
+        print("Too high - try again:")
     number_guess += 1
 
 # check number of guess with if else statement
