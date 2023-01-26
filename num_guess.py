@@ -5,7 +5,7 @@
 
 # set the correct guess to be the integer inputted
 player_guess = 0
-correct_guess = int(input("Enter the integer to for the player to guess.\n"))
+correct_guess = int(input("Enter the integer for the player to guess.\n"))
 print("Enter your guess.")
 number_guess = 0
 
