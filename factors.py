@@ -10,6 +10,8 @@ print("The factors of 12 are: " + str(pos_int))
 for factor_int in range(1, pos_int + 1):
     if pos_int % factor_int == 0:
         print(factor_int)
+# try to expand the range
+    factor_int += 1
 
 # This was my previous trials, it did not go well.
 # pos_integer = int(input())
