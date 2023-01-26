@@ -4,7 +4,10 @@
 # Description: User inputs positive integer to get an output of all factors
 
 pos_int = int(input("Please enter a positive integer: "))
-print("The factors of 12 are: ")
+# Made so that the value exits if its smaller than 0 or negative
+if pos_int < 0:
+    exit()
+print("The factors of", pos_int, "are: ")
 
 # to make sure to get all the factors
 for factor_int in range(1, pos_int + 1):
