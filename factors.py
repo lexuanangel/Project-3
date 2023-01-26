@@ -4,16 +4,16 @@
 # Description: User inputs positive integer to get an output of all factors
 
 pos_int = int(input("Please enter a positive integer: "))
-print("The factors of 12 are: " + str(pos_int))
+print("The factors of 12 are: ")
 
 # to make sure to get all the factors
 for factor_int in range(1, pos_int + 1):
     if pos_int % factor_int == 0:
         print(factor_int)
-# try to expand the range
-    factor_int += 1
 
 # This was my previous trials, it did not go well.
+# try to expand the range
+# factor_int += 1
 # pos_integer = int(input())
 # print("Please enter a positive integer: " + str(pos_integer))
 # even_integer = pos_integer / 2
